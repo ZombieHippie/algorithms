@@ -13,3 +13,8 @@ Perm = (a, k, n) ->
       t = a[k]; a[k] = a[i]; a[i] = t
 
 module.exports = Perm
+###
+Note: this would have a really cool implementation
+in Golang where we could use channels instead of
+console.log(a) for every permutation.
+###
